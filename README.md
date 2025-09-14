@@ -47,7 +47,7 @@ The source data was adapted to the needs of the analysis.
 
 **Exploratory Analysis** revealed the first patterns in coupon acceptance behaviour and allowed for a preliminary assessment of the 'perfect driver-consumer' profile.
 
-The **ready-for-modeling** dataset had **12079 observations** and **17 features**.
+The **ready-for-modeling** dataset had **12 079 observations** and **17 features**.
 
 ---
 
