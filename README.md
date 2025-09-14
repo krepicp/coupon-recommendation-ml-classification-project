@@ -25,7 +25,7 @@ This project explores **coupon acceptance prediction** using ML classification m
 
 To conduct the analysis, the dataset **"In-Vehicle Coupon Recommendation"** from the UC Machine Learning Repository was used. The data was collected via Amazon Mechanical Turk survey.
 
-**Source:** [Dataset]((https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation))
+**Source:** [Dataset](https://archive.ics.uci.edu/dataset/603/in+vehicle+coupon+recommendation) 
 
 The dataset contains **12 684 observations**, **25 features**, and target variable **Y** (Y=1 - coupon accepted; Y=0 - coupon rejected)
 
