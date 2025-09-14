@@ -1,41 +1,31 @@
 # Will the Driver Accept the Coupon?  
-**Coupon Acceptance Prediction: ML Classification Project**
+## ***Coupon Acceptance Prediction: ML Classification Project***
 
 ---
 
 ## 📌 1. Short Introduction & Business Context
+
 Coupons are a widely used marketing tool to attract new customers, build loyalty, and boost sales.  
 
-Since customer preferences differ, the key challenge is to recommend the right coupon to the right person at the right time.  
+Since customer preferences differ, the key challenge is to recommend the **right coupon** to the **right person** at the **right time**.  
 
 This project explores **coupon acceptance prediction** using ML classification models. It analyzes which factors influence acceptance and provides business recommendations for smarter coupon strategies.
 
 ---
 
-## 📑 2. Table of Contents
-- [Project Goals](#project-goals)  
-- [Dataset](#dataset)  
-- [Data Preprocessing & EDA](#data-preprocessing--eda)  
-- [Modeling & Evaluation](#modeling--evaluation)  
-- [Model Comparison](#model-comparison)  
-- [Insights & Interpretation](#insights--interpretation)  
-- [Conclusions & Business Recommendations](#conclusions--business-recommendations)  
-- [Project Structure](#project-structure)  
-- [Technologies & Libraries](#technologies--libraries)  
+## 🎯 2. Project Goals
 
----
-
-## 🎯 3. Project Goals
-- **Technical goal** → Build and compare different ML classification models for coupon acceptance prediction.  
+- **Technical goal** → Build and compare different ML classification models for coupon acceptance prediction.
+  
 - **Business goal** → Improve coupon redemption rates by identifying people most likely to accept coupons.  
 
 ---
 
-## 📊 4. Dataset
+## 📊 3. Dataset
 
 To conduct the analysis, the dataset **"In-Vehicle Coupon Recommendation"** from the UC Machine Learning Repository was used. The data was collected via Amazon Mechanical Turk survey.
 
-Source: [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
+**Source:** [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 
 The dataset contains **12 684 observations**, **25 features**, and target variable **Y** (Y=1 - coupon accepted; Y=0 - coupon rejected)
 
@@ -43,9 +33,11 @@ Features describe **driving scenarios** (e.g., time, weather conditions, passeng
 
 ---
 
-## ⚙️ 5. Data Preprocessing & EDA
+## ⚙️ 4. Data Preprocessing & EDA
 
-The source data was adapted to the needs of the analysis. Key data transformation steps include:
+The source data was adapted to the needs of the analysis. 
+
+**Key data transformation steps include:**
 
 - Removal of irrelevant/redundant features and rows with missing values.  
 - Creation of new aggregated variables.
@@ -55,12 +47,13 @@ The source data was adapted to the needs of the analysis. Key data transformatio
 
 **Exploratory Analysis** revealed the first patterns in coupon acceptance behaviour and allowed for a preliminary assessment of the 'perfect driver-consumer' profile.
 
-The "ready for modeling" dataset had 12079 observations and 17 features.
+The "ready for modeling" dataset had **12079 observations** and **17 features**.
 
 ---
 
-## 🤖 6. Modeling & Evaluation
-In total, six models were trained and tuned:  
+## 🤖 5. Modeling & Evaluation
+
+In total, **six models** were trained and tuned:  
 - Logistic Regression  
 - Decision Tree  
 - Random Forest  
@@ -75,7 +68,7 @@ For each model, the ROC Curve and Confusion Matrix were added.
 
 ---
 
-## 📈 7. Model Comparison
+## 📈 6. Model Comparison
 
 The table below briefly summarizes the results of the obtained models:
 
@@ -95,7 +88,7 @@ The table below briefly summarizes the results of the obtained models:
 
 ---
 
-## 🔍 8. Insights & Interpretation
+## 🔍 7. Insights & Interpretation
 - **CatBoost feature importance** identified the strongest predictors of coupon acceptance.
 
 - **Logistic Regression coefficients** allowed interpretation of direction and effect strength.  
@@ -116,8 +109,8 @@ The table below briefly summarizes the results of the obtained models:
 
 ---
 
-## ✅ 9. Conclusions & Business Recommendations
-ML models can effectively predict coupon acceptance and support **personalized coupon strategies**.  
+## ✅ 8. Conclusions & Business Recommendations
+ML models can effectively predict coupon acceptance and support personalized coupon strategies.  
 
 Recommendations:  
 1. **Target the right audience** → Younger drivers, traveling with friends/partner, frequent visitors.  
@@ -128,7 +121,7 @@ Recommendations:
 
 ---
 
-## 📂 10. Project Structure
+## 📂 9. Project Structure
 
 /notebooks/
 ├── data_preprocessing_and_EDA.ipynb
@@ -139,7 +132,7 @@ README.md # Project description
 
 ---
 
-## 🛠️ 11. Technologies & Libraries
+## 🛠️ 10. Technologies & Libraries
 - Python  
 - Numpy, Pandas  
 - Matplotlib, Seaborn  
