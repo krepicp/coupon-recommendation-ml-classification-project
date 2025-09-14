@@ -123,12 +123,14 @@ Recommendations:
 
 ## 📂 9. Project Structure
 
+```
 /notebooks/
 ├── data_preprocessing_and_EDA.ipynb
 ├── modeling_and_evaluation.ipynb
 /presentation/
 └── presentation.pdf # Extended project summary & results
 README.md # Project description
+```
 
 ---
 
